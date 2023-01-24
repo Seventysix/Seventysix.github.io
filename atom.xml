@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-23T10:39:13.376Z</updated>
+  <updated>2023-01-23T13:34:35.232Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,76 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android so加载和dump</title>
-    <link href="http://example.com/2023/01/23/Android-so%E5%8A%A0%E8%BD%BD%E5%92%8Cdump/"/>
-    <id>http://example.com/2023/01/23/Android-so%E5%8A%A0%E8%BD%BD%E5%92%8Cdump/</id>
-    <published>2023-01-23T10:39:13.000Z</published>
-    <updated>2023-01-23T10:39:13.376Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Android so文件的加解密</title>
-    <link href="http://example.com/2023/01/23/Android-so%E6%96%87%E4%BB%B6%E7%9A%84%E5%8A%A0%E8%A7%A3%E5%AF%86/"/>
-    <id>http://example.com/2023/01/23/Android-so%E6%96%87%E4%BB%B6%E7%9A%84%E5%8A%A0%E8%A7%A3%E5%AF%86/</id>
-    <published>2023-01-23T10:39:02.000Z</published>
-    <updated>2023-01-23T10:39:02.494Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Android ptrace注入</title>
-    <link href="http://example.com/2023/01/23/Android-ptrace%E6%B3%A8%E5%85%A5/"/>
-    <id>http://example.com/2023/01/23/Android-ptrace%E6%B3%A8%E5%85%A5/</id>
-    <published>2023-01-23T10:38:43.000Z</published>
-    <updated>2023-01-23T11:17:53.941Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="安全" scheme="http://example.com/categories/%E5%AE%89%E5%85%A8/"/>
-    
-    
-    <category term="Android" scheme="http://example.com/tags/Android/"/>
-    
-    <category term="安全" scheme="http://example.com/tags/%E5%AE%89%E5%85%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android zygote注入</title>
-    <link href="http://example.com/2023/01/23/Android-zygote%E6%B3%A8%E5%85%A5/"/>
-    <id>http://example.com/2023/01/23/Android-zygote%E6%B3%A8%E5%85%A5/</id>
-    <published>2023-01-23T10:38:25.000Z</published>
-    <updated>2023-01-23T10:38:25.369Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://example.com/2023/01/23/hello-world/"/>
     <id>http://example.com/2023/01/23/hello-world/</id>
     <published>2023-01-23T07:46:04.068Z</published>
-    <updated>2023-01-23T11:17:52.154Z</updated>
+    <updated>2023-01-23T13:34:35.232Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -102,6 +37,102 @@
     
     
     <category term="blog" scheme="http://example.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android so文件的加解密</title>
+    <link href="http://example.com/2022/12/14/Android-so%E6%96%87%E4%BB%B6%E7%9A%84%E5%8A%A0%E8%A7%A3%E5%AF%86/"/>
+    <id>http://example.com/2022/12/14/Android-so%E6%96%87%E4%BB%B6%E7%9A%84%E5%8A%A0%E8%A7%A3%E5%AF%86/</id>
+    <published>2022-12-14T14:10:02.000Z</published>
+    <updated>2023-01-23T13:34:02.791Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android so加载和dump</title>
+    <link href="http://example.com/2022/11/27/Android-so%E5%8A%A0%E8%BD%BD%E5%92%8Cdump/"/>
+    <id>http://example.com/2022/11/27/Android-so%E5%8A%A0%E8%BD%BD%E5%92%8Cdump/</id>
+    <published>2022-11-27T10:39:13.000Z</published>
+    <updated>2023-01-24T12:07:35.070Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="加载"><a class="markdownIt-Anchor" href="#加载"></a> 加载</h2><h3 id="elf文件介绍"><a class="markdownIt-Anchor" href="#elf文件介绍"></a> ELF文件介绍</h3><p>ELF文件是Unix中的ABI。Linux中的执行文件基本都是ELF文件，同样Android和iOS中也如此。其主要有四种类型：</p><ol><li>可重定位文件（Relocatable File）包含适合于与其他目标文件链接来创建可执行文件或者共享目标文件的代码和数据，即 xxx.o 文件。</li><li>可执行文件（Executable File）包含适合于执行的一个程序，此文件规定了 exec() 如何创建一个程序的进程映像，即 a.out文件。</li><li>共享目标文件（Shared Object File）包含可在两种上下文中链接的代码和数据。首先链接编辑器可以将它和其它可重定位文件和共享目标文件一起处理，生成另外一个目标文件。其次，动态链接器（Dynamic Linker）可能将它与某个可执行文件以及其它共享目标一起组合，创建进程映像，即 xxx.so文件。</li><li>内核转储(core dumps)，存放当前进程的执行上下文，用于dump信号触发。</li></ol><p>我们可以通过readelf工具查看ELF文件的相关信息，或者使用010 editor等工具进行查看。<br />ELF文件通常由以下几部分组成：</p><ol><li>ELF头（ELF Header）：位于文件开始位置。用于描述文件主要特性，包括魔数、架构、程序头标偏移、节头表偏移等。</li><li>程序头表（Program Header Table）：位于ELF Header之后。列举了所有有效的段（Segment）以及他们的属性。</li><li>节头表（Section Header Table）：位于文件的末尾。列举了所有节（Section）以及他们的属性。</li></ol><h3 id="elf文件加载"><a class="markdownIt-Anchor" href="#elf文件加载"></a> ELF文件加载</h3><div align=center><img src="https://i.328888.xyz/2023/01/24/bU0Rt.png" /></div><p>ELF文件有两种试图模式，“链接视图（Linkable）”和“执行视图（Executable）”，其中链接视图以节（Section）为单位，执行视图以（Segment）为单位。</p><p>举个例子，假如我们有多个可重定位文件，即xxx.o文件，这些文件内部都是section，例如.text、.rodata等。当要链接成执行文件时，各个section就会合并成segment，主要是为了执行时方便加载。</p><p>加载ELF时的系统调用函数流程如下，处理函数为load_elf_binary：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bUtKP.png" /></div><p>load_elf_binary大致流程是：</p><ol><li>读取并检查目标程序的ELF头</li><li>加载目标程序的Program Header Table</li><li>处理动态链接，即解释器段（<a href="http://xn--Linuxld-linux-773u49bl015a.so">Linux会使用ld-linux.so</a>，Android是linker）</li><li>加载必须的Segment，即类型为PT_LOAD的Segment</li><li>填入程序的入口地址</li><li>设置目标函数的参数、环境变量等必要信息</li><li>调用start_thread准备执行函数</li></ol><h3 id="android中so的加载"><a class="markdownIt-Anchor" href="#android中so的加载"></a> Android中so的加载</h3><p>安卓中APP进程加载so文件是通过Java层函数System.loadLibrary()去加载，实际上在调用链底层还是调用了dlopen，然后用dlsym去找JNI_OnLoad的符号，找到后再执行JNI_OnLoad。查看Linker源码，dlopen返回一个soinfo结构体指针。</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bUkUX.jpeg" /></div><h2 id="dump"><a class="markdownIt-Anchor" href="#dump"></a> dump</h2><h3 id="mem-dump"><a class="markdownIt-Anchor" href="#mem-dump"></a> Mem dump</h3><p>Dump so文件即从内存中把so文件保存到本地，一般是逆向分析时遇到了so文件被静态加固了，所以尝试dump的方式意图还原后的so文件。因为一般情况下so的还原会在加载时完成，所以加载到内存之后的so大概率是还原了的。</p><p>dump的方法还是非常简单的，这里贴一个用Frida来dump的例子：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">dump_so</span>(<span class="params"></span>)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="title class_">Java</span>.<span class="title function_">perform</span>(<span class="keyword">function</span>(<span class="params"></span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="keyword">var</span> libso = <span class="title class_">Process</span>.<span class="title function_">findModuleByName</span>(<span class="string">&quot;libtest.so&quot;</span>);</span><br><span class="line">                <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;[dump] Find module: &quot;</span> + libso.<span class="property">name</span>);</span><br><span class="line">                <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;[dump] Start addr: &quot;</span> + libso.<span class="property">base</span>);</span><br><span class="line">                <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;[dump] So size: &quot;</span> + libso.<span class="property">size</span>);</span><br><span class="line">                <span class="keyword">if</span> (libso)&#123;</span><br><span class="line">                    <span class="title class_">Memory</span>.<span class="title function_">protect</span>(<span class="title function_">ptr</span>(libso.<span class="property">base</span>), libso.<span class="property">size</span>, <span class="string">&#x27;rwx&#x27;</span>);</span><br><span class="line">                    <span class="keyword">var</span> libso_buffer = <span class="title function_">ptr</span>(libso.<span class="property">base</span>).<span class="title function_">readByteArray</span>(libso.<span class="property">size</span>);</span><br><span class="line">                    <span class="keyword">var</span> file_path = <span class="string">&quot;/data/local/tmp/&quot;</span> + libso.<span class="property">name</span> + <span class="string">&quot;.so&quot;</span>;</span><br><span class="line">                    <span class="keyword">var</span> file_handle = <span class="keyword">new</span> <span class="title class_">File</span>(file_path, <span class="string">&quot;wb&quot;</span>);</span><br><span class="line">                    file_handle.<span class="title function_">write</span>(libso_buffer);</span><br><span class="line">                    file_handle.<span class="title function_">flush</span>();</span><br><span class="line">                    file_handle.<span class="title function_">close</span>();</span><br><span class="line">                    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;[dump] Finish dump: &quot;</span>, file_path);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">                <span class="variable language_">console</span>.<span class="title function_">log</span>(e);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">setImmediate</span>(dump_so);</span><br></pre></td></tr></table></figure><h3 id="跨进程dump"><a class="markdownIt-Anchor" href="#跨进程dump"></a> 跨进程dump</h3><p>process_vm_readv</p><h3 id="处理反so-dump"><a class="markdownIt-Anchor" href="#处理反so-dump"></a> 处理反so dump</h3><p>很多商业软件都会做内存防护，特别是游戏领域，通过内存防修改、防搜索、防dump等等，来抵制外挂。这里不以破解为目的，从学习的角度上来浅谈一下如何绕过so dump检测。</p><h4 id="inotify检测及绕过"><a class="markdownIt-Anchor" href="#inotify检测及绕过"></a> inotify检测及绕过</h4><p>inotify是Linux提供的监控文件系统的变化的接口，这种变化包括文件被访问、修改、读写权限修改等等。因此，当破解者有时进行内存dump时，可能会对文件的权限进行修改（例如从不可读改成可读），这个时候就可以通过inotify进行检测。有不少商业方案就用的inotify，例如这个梆梆加固的反dump。<br />这种情况下通常思路是查找inotify的调用函数，然后对逻辑进行修改，例如修改返回值。</p><h4 id="so在内存不连续"><a class="markdownIt-Anchor" href="#so在内存不连续"></a> so在内存不连续</h4><p>之前遇到过游戏主模块so文件在内存中是不连续的，整个so文件被拆分成多段分别分布。这种情况下的处理方法基本是将每一段都dump下来然后再做修复。</p><h4 id="so数据修改"><a class="markdownIt-Anchor" href="#so数据修改"></a> so数据修改</h4><p>这种情况也是比较常见的，因为相对而言修改so数据的成本会比较低。我们通过对so的加载分析发现，在so加载时是使用的“执行视图”，因此部分section相关的字段是没用的，例如e_shoff、e_shnum等Section Header相关字段。而偏偏我们在逆向分析时，这些字段非常重要，因为IDA等反汇编工具需要Section相关信息去定位和加载各个Section，所以这些字段修改过后IDA就会加载失败。</p><p>如果我们dump下来的是有问题的，可以尝试通过dynamic段去尽可能还原一些section的信息，从而得到一个IDA可分析的so文件。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;加载&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#加载&quot;&gt;&lt;/a&gt; 加载&lt;/h2&gt;
+&lt;h3 id=&quot;elf文件介绍&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#elf文件介绍&quot;&gt;&lt;/a&gt; ELF文件介绍&lt;</summary>
+      
+    
+    
+    
+    <category term="安全" scheme="http://example.com/categories/%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="Android" scheme="http://example.com/tags/Android/"/>
+    
+    <category term="dump" scheme="http://example.com/tags/dump/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android zygote注入</title>
+    <link href="http://example.com/2022/11/19/Android-zygote%E6%B3%A8%E5%85%A5/"/>
+    <id>http://example.com/2022/11/19/Android-zygote%E6%B3%A8%E5%85%A5/</id>
+    <published>2022-11-19T09:22:25.000Z</published>
+    <updated>2023-01-24T11:50:51.574Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="zygote介绍"><a class="markdownIt-Anchor" href="#zygote介绍"></a> zygote介绍</h2><p>安卓开机流程：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bDe5c.png" /></div><p>Zygote进程在Init进程启动过程中被以service服务的形式启动，也就是通过app_process程序启动。app_process程序代码对应的就是app_main.cpp。</p><p>Zygote的主要作用：</p><ol><li>启动dalvik虚拟机（dalvik进程是zygote fork的）</li><li>加载系统必须的一些资源</li><li>启动framework的SystemServer进程（SystemServer进程是zygote fork的）</li><li>等待创建应用进程的请求</li></ol><div align=center><img src="https://i.328888.xyz/2023/01/24/bD7Dt.png" /></div><h2 id="zygote注入流程"><a class="markdownIt-Anchor" href="#zygote注入流程"></a> zygote注入流程</h2><p>我们从上一节的Android应用进程共享可见，Zygote fork出的进程都继承了Zygote内存空间，因此如果我们将模块注入Zygote进程，也同样会被其fork出的进程继承。</p><p>流程基本可以参考《Android ptrace注入》，注入对象变成了zygote进程。</p><h2 id="代码实现"><a class="markdownIt-Anchor" href="#代码实现"></a> 代码实现</h2><p>使用《Android ptrace注入》的代码即可。</p><h2 id="实验结果"><a class="markdownIt-Anchor" href="#实验结果"></a> 实验结果</h2><p>zygote注入libtest：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bDgJX.png" /></div><p>fork出的进程也载入了libtest：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bDErJ.png" /></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;zygote介绍&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#zygote介绍&quot;&gt;&lt;/a&gt; zygote介绍&lt;/h2&gt;
+&lt;p&gt;安卓开机流程：&lt;/p&gt;
+&lt;div align=center&gt;
+&lt;img src=&quot;https://i.328</summary>
+      
+    
+    
+    
+    <category term="安全" scheme="http://example.com/categories/%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="Android" scheme="http://example.com/tags/Android/"/>
+    
+    <category term="注入" scheme="http://example.com/tags/%E6%B3%A8%E5%85%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android ptrace注入</title>
+    <link href="http://example.com/2022/11/18/Android-ptrace%E6%B3%A8%E5%85%A5/"/>
+    <id>http://example.com/2022/11/18/Android-ptrace%E6%B3%A8%E5%85%A5/</id>
+    <published>2022-11-18T14:23:43.000Z</published>
+    <updated>2023-01-24T11:37:47.034Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="ptrace介绍"><a class="markdownIt-Anchor" href="#ptrace介绍"></a> ptrace介绍</h2><p>ptrace是Liunx系统的一个用来追踪进程的系统调用，功能是提供了一个进程可以观察、控制另一个进程的内存和寄存器。</p><p>其基本原理是，当一个进程A使用ptrace了进程B之后，发送给B的所有信号（除了SIGKILL）都会被转发给A，同时B会被堵塞，并且B的状态会被系统标识为TASK_TRACED。A收到发送给B的信号之后，可以对阻塞中的B进行检查和修改，之后再让B继续执行。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;sys/ptrace.h&gt;</span></span></span><br><span class="line"><span class="type">long</span> <span class="title function_">ptrace</span><span class="params">(<span class="keyword">enum</span> __ptrace_request request, <span class="type">pid_t</span> pid, <span class="type">void</span> *addr, <span class="type">void</span> *data)</span>;</span><br></pre></td></tr></table></figure><p>ptrace函数有四个参数：</p><ul><li>request：决定了ptrace要执行的命令；</li><li>pid：为要追踪的进程id；</li><li>addr：为要操作的内存地址；</li><li>data：为存放读取出的或者要写入的数据。</li></ul><p>其中request有一些常见指令：</p><table><thead><tr><th style="text-align:left">指令</th><th style="text-align:left">含义</th></tr></thead><tbody><tr><td style="text-align:left">PTRACE_ATTACH</td><td style="text-align:left">附加指定的pid进程</td></tr><tr><td style="text-align:left">PTRACE_DETACH</td><td style="text-align:left">结束对指定的pid进程附加</td></tr><tr><td style="text-align:left">PTRACE_GETREGS\PTRACE_GETFPREGS</td><td style="text-align:left">获取指定pid进程的普通\浮点寄存器值到data中</td></tr><tr><td style="text-align:left">PTRACE_SETREGS\PTRACE_SETFPREGS</td><td style="text-align:left">将data中的寄存器值设置到指定pid进程中</td></tr><tr><td style="text-align:left">PTRACE_PEEKTEXT</td><td style="text-align:left">将指定pid进程中地址为addr的内存数据读取一个字(word)到data中</td></tr><tr><td style="text-align:left">PTRACE_POKETEXT</td><td style="text-align:left">将data中的一个字长度的数据写入到指定pid进程中地址为addr的内存里</td></tr></tbody></table><p>其他详细信息可见：<a href="https://www.tutorialspoint.com/unix_system_calls/ptrace.htm">https://www.tutorialspoint.com/unix_system_calls/ptrace.htm</a></p><h2 id="ptrace注入流程"><a class="markdownIt-Anchor" href="#ptrace注入流程"></a> ptrace注入流程</h2><div align=center><img src="https://i.328888.xyz/2023/01/24/bAPWP.png" width="150" height="" /></div><p>简单来说：</p><ol><li>ptrace attach到远程进程；</li><li>获取并保存寄存器环境；</li><li>计算并获取远程进程的mmap、dlopen、dlsym等关键函数的地址；</li><li>使用ptrace写入需要的参数和内存，并修改pc寄存器的值为远程进程目标的值；</li><li>远程进程内调用dlopen动态链接要注入的so文件；</li><li>远程进程内调用dlsym执行被注入so文件的入口函数；</li><li>恢复寄存器环境；</li><li>从远程进程detach。</li></ol><h2 id="代码实现"><a class="markdownIt-Anchor" href="#代码实现"></a> 代码实现</h2><p><a href="https://github.com/Seventysix/android-ptrace-inject">https://github.com/Seventysix/android-ptrace-inject</a></p><h2 id="实验结果"><a class="markdownIt-Anchor" href="#实验结果"></a> 实验结果</h2><p>针对64位执行的UE4 demo游戏进行了注入，结果成功：<br />命令行输出：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bATpX.png"/></div><p>动态调试，so成功注入：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bAKEE.png"/></div><p>调用libtest.so的hook_entry函数执行成功：</p><div align=center><img src="https://i.328888.xyz/2023/01/24/bALTC.png"/></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;ptrace介绍&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ptrace介绍&quot;&gt;&lt;/a&gt; ptrace介绍&lt;/h2&gt;
+&lt;p&gt;ptrace是Liunx系统的一个用来追踪进程的系统调用，功能是提供了一个进程可以观察、控制另一个进程的内存</summary>
+      
+    
+    
+    
+    <category term="安全" scheme="http://example.com/categories/%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="Android" scheme="http://example.com/tags/Android/"/>
+    
+    <category term="注入" scheme="http://example.com/tags/%E6%B3%A8%E5%85%A5/"/>
     
   </entry>
   
