@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-23T13:34:35.232Z</updated>
+  <updated>2023-01-25T06:54:31.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Flask建站自用标配</title>
+    <link href="http://example.com/2023/01/25/Flask%E5%BB%BA%E7%AB%99%E8%87%AA%E7%94%A8%E6%A0%87%E9%85%8D/"/>
+    <id>http://example.com/2023/01/25/Flask%E5%BB%BA%E7%AB%99%E8%87%AA%E7%94%A8%E6%A0%87%E9%85%8D/</id>
+    <published>2023-01-25T06:54:31.000Z</published>
+    <updated>2023-01-25T06:54:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2><p>一套自己在部署Python开发的后端服务时常用的架构，简单做个记录。</p><h2 id="一图流"><a class="markdownIt-Anchor" href="#一图流"></a> 一图流</h2><div align=center><img src="https://i.328888.xyz/2023/01/25/bHdBA.png" /></div><h2 id="入口"><a class="markdownIt-Anchor" href="#入口"></a> 入口</h2><p>请求直接打到nginx。虽说直接用nginx作为入口，一旦nginx挂了整个服务就挂了。但由于目前参与部署的服务大多是公司、部门内部使用的服务，或者是自己搭着玩的web站点，机器资源有限（一般就只有一台），因此单点挂了就挂了。</p><p>如果是有个集群的情况下，可以通过Keepalived来应对nginx单点故障的问题。</p><p>在我目前的场景中，nginx主要起到：</p><ol><li>处理静态请求展示前端页面；</li><li>内部域名映射；</li><li>多个服务的统一入口管理。</li></ol><h2 id="应用容器"><a class="markdownIt-Anchor" href="#应用容器"></a> 应用容器</h2><p>Flask、Django开发的应用直接用命令行跑起来，其他人当然也是可以调用的。但假如你这个服务使用的人多了起来，Flask等自带的wsgi性能就不那么好了。uWSGI、Gunicorn这类wsgi server可以提供更好的并发性能支持。</p><p><a href="https://csrgxtu.github.io/2020/03/08/WSGI-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90/">《WSGI 服务器性能分析》</a>中对比了比较出名的几款wsgi工具的性能，这里我常用的是Gunicorn。</p><h2 id="web框架"><a class="markdownIt-Anchor" href="#web框架"></a> Web框架</h2><p>个人更喜欢Flask，相对Django而言更精简。不过这部分用什么框架还是看实际场景和需求，还有开发人员的熟练程度吧。</p><h2 id="监控管理"><a class="markdownIt-Anchor" href="#监控管理"></a> 监控管理</h2><p>一方面Gunicorn重启关闭麻烦，另一方面我们又希望如果服务进程因为内部错误等原因挂了，还能够自己重新启动，不妨碍继续使用。因此supervisor的引入是非常有必要的。</p><p>supervisor可以起到以下几个作用：</p><ol><li>简单配置之后可以非常方便的进行Gunicorn进程的启动、重启、关闭；</li><li>可以查看Gunicorn的执行状态；</li><li>可以配置挂掉的进程自动重启。</li></ol><h2 id="cicd"><a class="markdownIt-Anchor" href="#cicd"></a> CI/CD</h2><p>这部分其实就是自动更新部署的内容，最开始的时候是直接写个shell脚本去进行服务端项目的更新、重启，后来使用Fabric比较多，其实Fabric实质上还是在跑shell等命令。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#简介&quot;&gt;&lt;/a&gt; 简介&lt;/h2&gt;
+&lt;p&gt;一套自己在部署Python开发的后端服务时常用的架构，简单做个记录。&lt;/p&gt;
+&lt;h2 id=&quot;一图流&quot;&gt;&lt;a class=&quot;markdownIt</summary>
+      
+    
+    
+    
+    <category term="后端" scheme="http://example.com/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="Flask" scheme="http://example.com/tags/Flask/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://example.com/2023/01/23/hello-world/"/>
     <id>http://example.com/2023/01/23/hello-world/</id>
     <published>2023-01-23T07:46:04.068Z</published>
     <updated>2023-01-23T13:34:35.232Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
