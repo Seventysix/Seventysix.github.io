@@ -34,6 +34,10 @@
     
     
     
+    <category term="后端" scheme="http://example.com/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="Flask" scheme="http://example.com/tags/Flask/"/>
     
   </entry>
   
